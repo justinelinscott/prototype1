@@ -12,6 +12,7 @@
 		D565E77E22A993B400168795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D565E77C22A993B400168795 /* Main.storyboard */; };
 		D565E78022A993B800168795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D565E77F22A993B800168795 /* Assets.xcassets */; };
 		D565E78322A993B800168795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D565E78122A993B800168795 /* LaunchScreen.storyboard */; };
+		D565E78B22A9965E00168795 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565E78A22A9965E00168795 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D565E77F22A993B800168795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D565E78222A993B800168795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D565E78422A993B800168795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D565E78A22A9965E00168795 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D565E77822A993B400168795 /* AppDelegate.swift */,
 				D565E77A22A993B400168795 /* ViewController.swift */,
 				D565E77C22A993B400168795 /* Main.storyboard */,
+				D565E78A22A9965E00168795 /* DetailViewController.swift */,
 				D565E77F22A993B800168795 /* Assets.xcassets */,
 				D565E78122A993B800168795 /* LaunchScreen.storyboard */,
 				D565E78422A993B800168795 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D565E78B22A9965E00168795 /* DetailViewController.swift in Sources */,
 				D565E77B22A993B400168795 /* ViewController.swift in Sources */,
 				D565E77922A993B400168795 /* AppDelegate.swift in Sources */,
 			);
